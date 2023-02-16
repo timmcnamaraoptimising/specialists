@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melbourne Plumber
+    </title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.css" rel="stylesheet">
+    <!-- Include jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js">
+    </script>
+
+  </head>
+
+  <!-- This is the homepage for a plumbing service in Melbourne, Australia. It provides an overview of the services offered by the company, as well as a contact form and a list of frequently asked questions. -->
+
+  <body class="bg-gray-100">
+    <header class="bg-white py-4 shadow">
+      <div class="container mx-auto">
+        <nav class="flex justify-between items-center">
+          <div class="font-bold text-xl">Melbourne Plumber
+          </div>
+          <ul class="flex">
+            <li class="mx-4">
+              <a href="#" class="text-gray-700 hover:text-gray-900">Services
+              </a>
+            </li>
+            <li class="mx-4">
+              <a href="#" class="text-gray-700 hover:text-gray-900">Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="container mx-auto my-8 flex flex-col md:flex-row items-center md:items-stretch justify-center gap-8">
+      <div class="max-w-lg">
+        <h1 class="text-3xl font-bold mb-4">Melbourne Plumber Services
+        </h1>
+        <p class="mb-4">We provide reliable and affordable plumbing services in Melbourne and surrounding areas. Our team of licensed plumbers are available 24/7 to solve any plumbing issue you may have. Whether it's a leaky faucet or a burst pipe, we have the skills and expertise to get the job done right.
+        </p>
+
+        <!-- This section contains a list of the plumbing services offered by the company. Each service is described in a separate list item. -->
+
+        <div class="flex flex-col md:flex-row items-center gap-8">
+          <ul class="list-disc pl-4">
+            <li>
+              <h2 class="text-2xl font-bold mb-2">Emergency plumbing
+              </h2>
+              <p class="mb-4">Our emergency plumbing service is available 24/7 to help you with any urgent plumbing issues. Whether it's a burst pipe, blocked drain, or gas leak, our team of experienced plumbers can quickly identify and fix the problem. We'll arrive at your location as soon as possible to minimize damage and ensure your safety.
+              </p>
+            </li>
+            <li>
+              <h2 class="text-2xl font-bold mb-2">Blocked drains
+              </h2>
+              <p class="mb-4">Blocked drains can cause a range of problems, from bad smells to overflowing water. Our team can quickly diagnose the cause of the blockage and use the latest equipment to clear it. We also provide preventative maintenance services to keep your drains flowing smoothly and prevent future blockages.
+              </p>
+            </li>
+            <li>
+              <h2 class="text-2xl font-bold mb-2">Leaking taps and toilets
+              </h2>
+              <p class="mb-4">Leaking taps and toilets not only waste water, but they can also cause damage to your property if left unaddressed. Our team can fix any type of leaking tap or toilet, whether it's a simple washer replacement or a more complex valve repair. We'll also check for any other plumbing issues that may be causing the leaks.
+              </p>
+            </li>
+            <li>
+              <h2 class="text-2xl font-bold mb-2">Hot water systems
+              </h2>
+              <p class="mb-4">Having reliable hot water is essential for any home or business. Our team can install, repair, and maintain all types of hot water systems, including electric, gas, and solar. We can also help you choose the right system for your needs and provide advice on how to improve energy efficiency and reduce running costs.
+              </p>
+            </li>
+            <li>
+              <h2 class="text-2xl font-bold mb-2">Burst pipes
+              </h2>
+              <p class="mb-4">Burst pipes can cause extensive damage to your property and require urgent attention. Our team can quickly locate and repair burst pipes, minimizing damage and preventing further issues. We can also provide advice on how to prevent burst pipes in the future, such as insulating pipes and regular maintenance.
+              </p>
+            </li>
+            <li>
+              <h2 class="text-2xl font-bold mb-2">Gas fittings and installations
+              </h2>
+              <p class="mb-4">Our licensed gas fitters can install, repair, and maintain all types of gas fittings and appliances, including ovens, cooktops, and heaters. We can also provide gas leak detection and repair services to ensure your safety. Our team is trained to work with both natural gas and LPG, and we adhere to all relevant safety regulations.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- This image shows a leaky tap. It is included to add visual interest to the page and to help illustrate the types of plumbing services offered by the company. -->
+
+      <div class="flex-shrink-0">
+        <img src="../images/tap.jpeg" alt="a tap that is leaking" class="w-full max-w-md rounded-lg shadow-lg">
+      </div>
+    </main>
+    <aside class="container mx-auto my-8">
+
+      <!-- This section contains a form that allows users to send a message to the company. The form includes fields for the user's name, email address, phone number, and a message. -->
+
+      <div class="mt-8">
+        <h2 class="text-xl font-bold mb-2">Contact Us Today!
+        </h2>
+        <form id="contact-form" method="post">
+          <div class="mb-4">
+            <label class="block text-gray-700 font-bold mb-2" for="name">Name
+            </label>
+            <input class="border rounded py-2 px-3 text-gray-700 w-full" id="name" name="name" type="text" required>
+          </div>
+          <div class="mb-4">
+            <label class="block text-gray-700 font-bold mb-2" for="email">Email
+            </label>
+            <input class="border rounded py-2 px-3 text-gray-700 w-full" id="email" name="email" type="email" required>
+          </div>
+          <div class="mb-4">
+            <label class="block text-gray-700 font-bold mb-2" for="message">Message
+            </label>
+            <textarea class="border rounded py-2 px-3 text-gray-700 w-full" id="message" name="message" rows="6" required>
+            </textarea>
+          </div>
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" type="submit">Send
+          </button>
+        </form>
+      </div>
+
+      <!-- Added a new FAQ section below. -->
+
+      <div class="my-4">
+        <h2 class="text-xl font-bold mb-2">Frequently Asked Questions
+        </h2>
+        <div class="space-y-6">
+          <div class="bg-white shadow overflow-hidden rounded-lg">
+            <button class="flex items-center justify-between w-full p-4 text-lg font-medium text-left text-gray-700" onclick="toggleAnswer(this)">
+              <span>What are your hours of operation?
+              </span>
+              <span class="ml-4 text-gray-500">+
+              </span>
+            </button>
+            <div class="hidden p-4 text-gray-500">
+              We are open 24/7, 365 days a year, including weekends and holidays.
+            </div>
+          </div>
+          <div class="bg-white shadow overflow-hidden rounded-lg">
+            <button class="flex items-center justify-between w-full p-4 text-lg font-medium text-left text-gray-700" onclick="toggleAnswer(this)">
+              <span>Do you offer emergency plumbing services?
+              </span>
+              <span class="ml-4 text-gray-500">+
+              </span>
+            </button>
+            <div class="hidden p-4 text-gray-500">
+              Yes, we offer 24/7 emergency plumbing services for urgent plumbing issues such as burst pipes and overflowing toilets.
+            </div>
+          </div>
+          <div class="bg-white shadow overflow-hidden rounded-lg">
+            <button class="flex items-center justify-between w-full p-4 text-lg font-medium text-left text-gray-700" onclick="toggleAnswer(this)">
+              <span>Do you offer free quotes?
+              </span>
+              <span class="ml-4 text-gray-500">+
+              </span>
+            </button>
+            <div class="hidden p-4 text-gray-500">
+              Yes, we offer free quotes for all plumbing services. Simply give us a call or fill out our online contact form to request a quote.
+            </div>
+          </div>
+          <div class="bg-white shadow overflow-hidden rounded-lg">
+            <button class="flex items-center justify-between w-full p-4 text-lg font-medium text-left text-gray-700" onclick="toggleAnswer(this)">
+              <span>What types of plumbing services do you offer?
+              </span>
+              <span class="ml-4 text-gray-500">+
+              </span>
+            </button>
+            <div class="hidden p-4 text-gray-500">
+              We offer a wide range of plumbing services, including emergency plumbing, blocked drains, leaking taps and toilets, hot water systems, burst pipes, and gas fittings and installations. See our Services page for more information.
+            </div>
+          </div>
+          <div class="bg-white shadow overflow-hidden rounded-lg">
+            <button class="flex items-center justify-between w-full p-4 text-lg font-medium text-left text-gray-700" onclick="toggleAnswer(this)">
+              <span>What is your service area?
+              </span>
+              <span class="ml-4 text-gray-500">+
+              </span>
+            </button>
+            <div class="hidden p-4 text-gray-500">
+              We provide plumbing services in Melbourne and surrounding areas, including but not limited to Richmond, South Yarra, St Kilda, and Prahran. Contact us to see if we service your area.
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <footer class="bg-gray-900 py-4 text-white">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2023 Melbourne Plumber. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Add modal markup for form submission -->
+
+    <div class="fixed top-0 left-0 w-full h-full bg-green-700 bg-opacity-50 flex items-center justify-center modal hidden">
+      <div class="bg-white rounded-lg p-4 max-w-xs w-full text-center">
+        <p class="text-lg font-bold mb-2">Message received!
+        </p>
+        <p class="text-gray-700">We'll get back to you as soon as possible.
+        </p>
+      </div>
+    </div>
+    
+    <!-- Include external JavaScript file -->
+    <script src="minfication-example.js">
+    </script>
+  </body>
+</html>
