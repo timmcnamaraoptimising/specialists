@@ -1,0 +1,24 @@
+section {
+  margin: 10px 0;
+}
+
+#header-paragraph {
+  text-align: center;
+}
+
+#product-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#product-list li {
+  background-color: lightgrey;
+  margin: 5px 0;
+  padding: 10px;
+  cursor: pointer; /* changes the cursor to a hand when hovering over the list item */
+  display: block; /* makes the entire list item clickable */
+}
+
+#product-list li:hover {
+  background-color: darkgrey; /* changes the background color when hovering over the list item */
+}
